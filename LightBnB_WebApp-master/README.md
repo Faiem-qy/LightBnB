@@ -1,4 +1,11 @@
 # LightBnB
+A simple multi-page Airbnb clone that uses a server-side JavaScript to display the information from queries to web pages via SQL queries
+
+## Screenshots
+Main Page showing all Properties after Loggin In
+!["Screenshot Main Page after Log In"](public/assets/Main_Page_LightBnB.png)
+Reservations Page showing all reservations for a specific user
+!["Screenshot showing Reservations"](public/assets/Reservations_Page_LightBnB.png)
 
 ## Project Structure
 
@@ -53,3 +60,10 @@
 * `routes` contains the router files which are responsible for any HTTP requests to `/users/something` or `/api/something`. 
 * `styles` contains all of the sass files. 
 * `server.js` is the entry point to the application. This connects the routes to the database.
+
+
+## Getting Started
+  1. Clone this repository & ```cd LightBnB_WebApp-master```
+  2. Run npm install
+  3. Start the web server using ```npm run local```
+  4. Go to http://localhost:3000/ in your browser
